@@ -10,28 +10,146 @@
 
 <body>
     <section id="frente" class="frente">
-        <video autoplay loop>
-            <source src="/TrabajoFinal/Recursos/lfl-hero.mp4" type="video/mp4">
-        </video>
+        <img src="/TrabajoFinal/Recursos/rootOfNigthmare.png">
         <h1>RAIZ DE LAS PESADILLAS</h1>
     </section>
-    <section id="Menu">
+    <section id="Menu" class="contenido">
         <table>
             <tr>
-                <ul><a href="#loot"><h3>Recompensas por completar las raids</h3></a></ul>
-                <ul><a href=""><h3>Primer encuentro</h3></a></ul>
-                <ul><a href=""><h3>Segundo encuentro</h3></a></ul>
-                <ul><a href=""><h3>Tercer encuentro</h3></a></ul>
-                <ul><a href=""><h3>Cuarto encuentro</h3></a></ul>
+                <ul><a href="#loot">
+                        <h3>Recompensas por completar las raids</h3>
+                    </a>
+                </ul>
+                <ul><a href="#Mecanic">
+                        <h3>Explicación mecanica principal</h3>
+                    </a>
+                    <ul><a href="#na">
+                            <h4>Nodo activado</h4>
+                        </a></ul>
+                    <ul><a href="#np">
+                            <h4>Nodo preparado</h4>
+                        </a></ul>
+                    <ul><a href="#nc">
+                            <h4>Nodo completado</h4>
+                        </a></ul>
+                    <ul><a href="#ni">
+                            <h4>Nodo inerte</h4>
+                        </a></ul>
+                </ul>
+                <ul><a href="#cofreRojo">
+                        <h3>Explicación cofre borde rojo</h3>
+                    </a></ul>
+                <ul><a href="">
+                        <h3>Primer encuentro</h3>
+                    </a></ul>
+                <ul><a href="">
+                        <h3>Segundo encuentro</h3>
+                    </a></ul>
+                <ul><a href="">
+                        <h3>Tercer encuentro</h3>
+                    </a></ul>
+                <ul><a href="">
+                        <h3>Cuarto encuentro</h3>
+                    </a></ul>
             </tr>
         </table>
     </section>
     <main>
-        <section id="loot" class="imagen" >
-            <h3>Posibles recompensas por hacer los encuentros</h3>
-        <img  src="/TrabajoFinal/Recursos/RoNLoot.png" >
+        <section id="loot" class="contenido">
+            <h1>Posibles recompensas por hacer los encuentros</h1>
+            <img src="/TrabajoFinal/Recursos/RoNLoot.png">
         </section>
-        
+        <section id="Mecanic" class="contenido">
+            <h1>Mecanica principal de la Raid</h1>
+            <p>
+            <h3>Antes de pasar a como completar la raid, debe hablar de la mecanica que estara presente en la mayoria de
+                los encuentro de la incursión. Hablamos del rol llamado "Gardening", o en español "Jardinero"
+                el cual se encagara de activar los nodos de los encuentros en el que se encuentren para completarlo.
+                <br>
+                <br>
+                Primero tenemos que saber que existen 2 nodos en toda la incursión, tenemos el nodo de luz y el nodo de
+                oscuridad, los cuales se diferencian por sus respectivos colores.
+                <br>Los nodos de luz son de color blanco brilloso y los nodos de oscuridad tienen un color negro con
+                naranja.
+            </h3>
+            <img src="/TrabajoFinal/Recursos/nodes.png" height="520" width="960">
+            <h3>
+                Conociendo esto ya podemos pasar a ver los tipos de nodos que nos podemos encontrar en la incursion, En
+                este caso serian cuatro nodos que nos podemos encontrar y con los que podemos
+                interactuar.
+            </h3>
+            <img src="/TrabajoFinal/Recursos/typesnodes.png" height="520" width="960">
+            <h2 id="na">Nodos activados: </h2>
+            <h3>
+                <br>Los nodos activados los podemos diferenciar del resto ya que tienen un aura de luz u oscuridad
+                dependiendo del tipo, este aura indica que si estamos dentro y le disparamos al nodo
+                para que nos de el buffo correspondiente. <br>
+                <br> Los nodos de luz te daran el buffo "Campo de luz" y los nodos de oscuridad nos daran el buffo
+                "Flujo de la oscuridad".
+                Una vez obtenido el buffo, el nodo nos mostrara una linea en la direccion la cual debemos ir a depositar
+                el buffo, es solo seguir esa direccion para encontrarse
+                con el nodo preparado como se muestra en el video.
+            </h3>
+            <video controls loop muted class="contenido" height="520" width="960">
+                <source src="/TrabajoFinal/Recursos/explicacionNodos.mp4" type="video/mp4">
+            </video>
+            <h2 id="np">Nodos preparados: </h2>
+            <h3>
+                Los nodos preparados los podemos diferenciar del resto ya que tienen una bola pequeña en la cual debemos
+                depositar el buffo ya sea de luz u oscuridad. Para dejar este buffo
+                tenemos que posicionarnos cerca del nodo y dispararle, una vez hecho perderas el buffo, el nodo pasara
+                de ser preparado a completado, dandonos a entender que el proceso se realizo completamente. <br>
+            </h3>
+            <h2 id="nc">Nodos completados: </h2>
+            <h3>
+                Los nodos completados son el resultado del deposito del buffo correspondiente al nodo preparado, cuando
+                este nodo se convierte en completado nos mostrara una nueva linea
+                la cual nos guiara hasta el nuevo nodo preparado para depositar el siguiente buffo. Si lo hacemos bien,
+                el ulimo nodo completado se convertira en nodo activado para proporcionarnos
+                el buffo, esto nos servira para el siguiente y ultimo nodo.
+            </h3>
+            <h2 id="ni">Nodos inertes: </h2>
+            <h3>
+                Los nodos inertes son el final del enlazamiento de los nodos, al principio estos nodos no nos
+                proporcinan una esfera haciendolos inaccesibles. La forma de hacer que estos
+                nodos se vuelvan nodos preparados es completando todo el enlazamiento siguiendo las lineas que nos
+                muestran los nodos, una vez hecho esto, el penultimo nodo completado se convertira
+                en nodo activado para obtener el buffo de una manera mas rapida, una vez obtenido el buffo del penultimo
+                nodo, el nodo inerte se convertira en nodo preparado y si depositavos el buffo
+                el nodo pasara a estar completado, terminando asi el primer enlaze de nodos del encuentro.
+            </h3>
+            </p>
+        </section>
+        <section id="cofreRojo" class="contenido">
+            <h1>Cofre borde rojo</h1>
+            <p>
+            <h3>Esta incursión cuenta con una serie de pasos para conseguir al final un cofre con una recompensa
+                adicional, esta recompensa es un arma con borde rojo, el cual
+                se puede extraer para conseguir progreso al craftear el arma. <br>
+                Los pasos a seguir son los siguientes: <br><br>
+                1. Al empezar la incursion si nos damos cuenta a la izquierda hay dos estructuras y en el medio hay un
+                caminito que nos guia a 3 nodos. Estos nodos varian cada vez
+                que haces la incursion, procura memorizar el color de los nodos o tomale una foto si lo necesitas, ya
+                que necesitamos saber de que tipo son para el proceso del
+                cofre rojo
+            </h3>
+            <video controls muted height="520" width="960">
+                <source src="/TrabajoFinal/Recursos/encontrarNodos.mp4" type="video/mp4">
+            </video>
+            <h3>2. Antes de llegar al primer encuentro, justo antes de subir por la raiz al llegar al primer encuentro
+                estar la entrada de la primera sala donde debemos enlazar
+                el nodo que nos aparecio al principio. En el video podras ver el camino a seguir para llegar a esta
+                sala.
+            </h3>
+            <video controls muted height="520" width="960">
+                <source src="/TrabajoFinal/Recursos/primerNodo.mp4" type="video/mp4">
+            </video>
+            <h3>De ahi tienes que hacer el proceso de "Jardinero" con el primer nodo que te salio al principio, una vez
+                enlazados y si lo hiciste corectamente te aparecera un mensaje
+                que te dira "Tus acciones toman raiz".
+            </h3>
+            </p>
+        </section>
     </main>
 </body>
 

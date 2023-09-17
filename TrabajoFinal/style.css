@@ -40,9 +40,9 @@ body {
     width: 500px;
     height: 125px;
     font-size: 1.3rem;
+    margin-top: -225px;
     margin-left: 400px;
     overflow: hidden;
     position: absolute;
     text-shadow: 0 0 8px rgba(0, 0, 0, 0.8);
 }
-

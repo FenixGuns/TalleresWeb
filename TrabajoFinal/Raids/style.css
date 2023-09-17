@@ -1,20 +1,20 @@
 body {
-    background-color: coral;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgb(255, 255, 255);
+
 }
 
-.frente img{
-    height: 100%;
+.frente img {
     width: 100%;
+    height: 100%;
 }
 
-.frente{
+.frente {
     overflow: hidden;
-    border-radius: 5px;
-    box-shadow: 5px 8px 12px black;
+    border-radius: 10px;
 }
 
-.frente h1{
+.frente h1 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 15rem;
     color: white;
     position: absolute;
@@ -25,10 +25,45 @@ body {
 
 }
 
-.imagen img{
-    width: 920px;
-    height: 920px;
-    margin: 20px;
+.contenido video {
+    margin-left: 25%;
     border-radius: 20px;
     box-shadow: 5px 8px 12px black;
+}
+
+.contenido img {
+    margin-left: 25%;
+    border-radius: 20px;
+    box-shadow: 5px 8px 12px black;
+}
+
+.contenido h3 {
+    font-family: 'Courier New', Courier, monospace;
+    color: black;
+    font-size: 1.5rem;
+    width: 920px;
+    margin-left: 25%;
+}
+
+.contenido h4 {
+    font-family: 'Courier New', Courier, monospace;
+    color: black;
+    width: 920px;
+    margin-left: 25%;
+}
+
+.contenido h1 {
+    font-family: 'Times New Roman', Times, serif;
+    color: red;
+    font-size: 3.5rem;
+    margin-top: 5%;
+    margin-left: 25%;
+}
+
+.contenido h2 {
+    font-family: 'Times New Roman', Times, serif;
+    color: red;
+    font-size: 2.3rem;
+    margin-top: 5%;
+    margin-left: 25%;
 }
